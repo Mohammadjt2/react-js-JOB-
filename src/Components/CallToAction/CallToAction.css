@@ -1,0 +1,35 @@
+.callToAction {
+  background-color: #1e203d;
+}
+
+.callToAction-header {
+  color: #fff;
+  padding: 30px 0;
+  line-height: 60px;
+  text-align: center;
+}
+
+.callToAction-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.callToAction-text {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.callToAction-city {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .callToAction-city{
+    width: 80%;
+    margin: auto;
+    }
+    
+  }

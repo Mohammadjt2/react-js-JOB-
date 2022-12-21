@@ -1,0 +1,103 @@
+.ourJob-right-frame {
+  background-color: #1e203d;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 50rem;
+  border-radius: 5px;
+  border-right: 5px solid rgba(153, 153, 153, 0.2);
+  margin: 20px 0;
+}
+
+.ourJob-right-frame:hover {
+  border-right: 5px solid #2e55fa;
+  transition: 500ms;
+}
+
+.ourJob-right-frame-right-job {
+  display: flex;
+}
+.ourJob-right-frame-right-job img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.ourJob-right-frame-right-job-text {
+  margin-right: 10px;
+  line-height: 40px;
+}
+.ourJob-right-frame-right-job-text h3 {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.ourJob-right-frame-right-job-text h3:hover {
+  color: #2e55fa;
+  transition: 500ms;
+}
+
+.ourJob-right-frame-right-job-address {
+  display: flex;
+  gap: 10px;
+}
+
+.ourJob-right-frame-right Button {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.ourJob-right-frame-left {
+}
+.ourJob-right-frame-left-icon {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 95px;
+}
+.ourJob-right-frame-left-icon *:hover {
+  color: red;
+  transition: 500ms;
+  cursor: pointer;
+}
+.ourJob-right-frame-left-text {
+  color: #999;
+}
+
+@media (max-width: 876px) {
+  .ourJob-right-frame {
+    width: 45rem;
+  }
+}
+@media (max-width: 768px) {
+  .ourJob-right-frame {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 668px) {
+  .ourJob-right-frame {
+    width: 35rem;
+  }
+  .ourJob-right-frame-right-job-address {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .ourJob-right-frame {
+    width: 30rem;
+  }
+}
+@media (max-width: 500px) {
+  .ourJob-right-frame {
+    width: 25rem;
+  }
+  .ourJob-right-frame-right-job h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 416px) {
+  .ourJob-right-frame {
+    width: 23rem;
+  }
+}

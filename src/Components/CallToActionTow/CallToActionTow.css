@@ -1,0 +1,53 @@
+.callToActionTow {
+  background-color: #1e203d;
+  color: #fff;
+  text-align: center;
+}
+
+.callToActionTow h2 {
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 50px;
+}
+
+.callToActionTow h4 {
+  font-style: italic;
+  padding: 20px 0;
+}
+
+.mySwiper {
+  width: 70%;
+}
+.SwiperSlide p{
+  background-color: #0b0b2a;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.callToActionTow-cards {
+  line-height: 35px;
+}
+
+.callToActionTow-cards p {
+  font-style: italic;
+}
+
+.callToActionTow-cards img {
+  border-radius: 50%;
+  border: 1px solid #2e55fa;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+
+.callToActionTow-cards h5 {
+  color: #2e55fa;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+
+.callToActionTow-cards h6 {
+  margin-bottom: 60px;
+}

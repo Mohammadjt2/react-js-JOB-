@@ -1,0 +1,65 @@
+.aboutUs {
+  background-color: #0b0b2a;
+  color: #fff;
+  padding: 40px;
+}
+
+.aboutUs-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutUs-top h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.aboutUs-top span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.aboutUs-left {
+  display: flex;
+}
+
+.aboutUs-left-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.aboutUs-button * {
+  border-radius: 40px;
+  display: flex;
+  margin: 60px auto;
+  padding: 20px 40px;
+}
+
+.aboutUs-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 30px auto;
+}
+
+@media (max-width: 768px) {
+  .aboutUs-top {
+    display: inline;
+    text-align: center;
+  }
+  .aboutUs-left {
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 476px) {
+  .aboutUs-left {
+    display: block;
+    line-height: 50px;
+  }
+}

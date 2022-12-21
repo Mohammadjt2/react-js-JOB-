@@ -1,0 +1,133 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  color: #c6cffa;
+  background-color: #222845;
+}
+
+.footer * {
+  padding: 0 8px;
+  line-height: 33px;
+}
+
+.footer-question {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-jobBoard {
+  width: 600px;
+}
+
+.footer-jobBoard-img {
+  max-width: 200px;
+}
+
+.footer-jobBoard p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.footer-jobBoard-email input {
+  border-radius: 40px;
+  padding: 8px;
+  width: 300px;
+  background-color: #222845;
+  border: 2px solid #fff;
+}
+
+.footer-jobBoard-email input:focus {
+  color: #000000;
+  background-color: #fff;
+  transition: 500ms;
+}
+
+.footer-jobBoard-email Button {
+  padding: 8px;
+  border-radius: 40px;
+  width: 100px;
+}
+
+.footer-jobBoard-socialNetwork * {
+  font-size: 35px !important;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.836);
+  margin: 10px 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.footer-question li {
+  cursor: pointer;
+}
+
+.footer-question li:hover {
+  color: #2e55fa;
+  transition: 500ms ease-in-out;
+}
+
+.TwitterIcon:hover {
+  background-color: #1ea1f3;
+  transition: 500ms;
+  border: 1px solid rgb(0, 0, 0);
+}
+.InstagramIcon:hover {
+  background-color: #8a5a4e;
+  transition: 500ms;
+  border: 1px solid rgb(0, 0, 0);
+}
+.LinkedInIcon:hover {
+  background-color: #007bb6;
+  transition: 500ms;
+  border: 1px solid rgb(0, 0, 0);
+}
+.GoogleIcon:hover {
+  background-color: #de4e43;
+  transition: 500ms;
+  border: 1px solid rgb(0, 0, 0);
+}
+.FacebookIcon:hover {
+  background-color: #3b5998;
+  transition: 500ms;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.Mohammadjt2 {
+  text-align: center;
+  background-color: #171d36;
+  color: #fff;
+  line-height: 30px;
+}
+
+.Mohammadjt2 span {
+  font-weight: 900;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    display: block;
+  }
+  .footer-jobBoard {
+    width: 100%;
+  }
+  .footer-question {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 600px) {
+  .footer-jobBoard {
+    text-align: center;
+  }
+  .footer-question {
+    display: block;
+    text-align: center;
+  }
+}

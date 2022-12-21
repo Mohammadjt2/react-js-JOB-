@@ -1,0 +1,144 @@
+.ourJob {
+  background-color: #0b0b2a;
+  color: #fff;
+  padding: 100px 0 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ourJob-right h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.ourJob-right span {
+  font-style: italic;
+}
+
+.ourJob-right-button {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.ourJob-right-button-next:hover,
+.ourJob-right-button-previous:hover {
+  color: #0b0b2a;
+  transition: 500ms;
+  font-weight: 900;
+}
+
+.ourJob-right-button-next {
+  background-color: #2e55fa;
+  padding-right: 12px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.ourJob-right-button-previous {
+  background-color: #2e55fa;
+  padding-left: 12px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.ourJob-left {
+  margin-right: 40px;
+  width: 250px;
+}
+
+.ourJob-left-button {
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ourJob-left-button:hover {
+  color: #0b0b2a;
+  transition: 500ms;
+  font-weight: 900;
+}
+
+.ourJob-left-box {
+  position: sticky;
+  top: 90px;
+}
+
+.ourJob-left-box-top {
+  background-color: #1e203d;
+  padding: 20px;
+  margin: 45px 0;
+  border-radius: 5px;
+}
+
+.ourJob-left-box-top img {
+  border-radius: 50%;
+  border: 3px solid #2e55fa;
+  margin: 10px 0;
+}
+
+.ourJob-left-box-top h5 {
+  color: #2e55fa;
+  margin: 10px 0;
+  font-style: italic;
+}
+.ourJob-left-box-top p {
+  color: #999;
+  font-size: 15px;
+}
+
+.ourJob-left-box-bottom {
+  background-color: #1e203d;
+  padding: 40px 20px;
+  margin: 45px 0;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.ourJob-left-box-bottom h2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.ourJob-left-box-bottom Button {
+  margin-top: 25px;
+}
+
+@media (max-width: 1200px) {
+  .ourJob {
+    display: block;
+  }
+  .ourJob-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourJob-left {
+    width: auto;
+  }
+  .ourJob-left-button {
+    display: none;
+  }
+  .ourJob-left-box {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .ourJob-left-box-top {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ourJob-left-box {
+    display: block;
+  }
+  .ourJob-left-box-top {
+    margin-left: 0;
+  }
+
+}

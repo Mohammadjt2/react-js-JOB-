@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "pelak";
+  src: url("../public/fonts/Pelak-Medium.woff");
+}
+
+* {
+  direction: rtl;
+  font-family: "pelak";
+}
+
+input{
+  outline: none;
+}

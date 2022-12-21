@@ -1,0 +1,47 @@
+.cardCity {
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cardCity h2,
+.cardCity span {
+  position: absolute;
+  z-index: 1000;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.cardCity-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.cardCity-title {
+  font-size: 30px;
+  line-height: 100px;
+  font-weight: 900;
+}
+
+.cardCity span {
+  font-style: italic;
+}
+
+.cardCity-background {
+  background-color: #1e203d75;
+  border-radius: 20px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.cardCity:hover{
+  color: #fff;
+  cursor: pointer;
+  transition: 500ms;
+}

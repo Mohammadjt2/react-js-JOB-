@@ -1,0 +1,52 @@
+.card {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  background-color: #2e55fa;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  font-size: 20px;
+  line-height: 50px;
+  box-shadow: 0 0 30px -10px #fff;
+}
+
+.card-icon {
+  margin-bottom: 40px;
+  color: #2e55fa;
+  z-index: 1000;
+}
+
+.card-icon *{
+  font-size: 70px !important;
+}
+
+.card div a {
+  font-weight: 700;
+}
+
+.card div span {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.card-background img {
+  border-radius: 50px 50px 0 0;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px -10px #2e55fa;
+  transition: 500ms;
+  cursor: progress;
+}

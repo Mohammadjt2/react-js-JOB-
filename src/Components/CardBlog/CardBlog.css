@@ -1,0 +1,32 @@
+.ourLatestBlog-box {
+  width: 350px;
+  background-color: #222339;
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-top: 60px;
+  border: 8px inset #2e53fa6c;
+  margin: 2px;
+}
+
+.ourLatestBlog-box h2 {
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 40px;
+}
+
+.ourLatestBlog-box span {
+  background-color: #18192975;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ourLatestBlog-box p {
+  font-size: 14px;
+  margin: 30px 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ourLatestBlog-box Button {
+  border-radius: 30px;
+}

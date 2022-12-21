@@ -1,0 +1,116 @@
+.login-img {
+  position: relative;
+}
+
+.login-img img {
+  width: 100%;
+  height: 100vh;
+}
+
+.login-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #0b0b2a;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.login-form h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-form h5 {
+  font-style: italic;
+  margin: 10px 0;
+  opacity: 0.5;
+}
+
+.login-form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-input input {
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.login-form-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-form-checkbox {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.login-form-checkbox input {
+  margin-left: 5px;
+}
+
+.login-form-amnesia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e55fa;
+  margin-bottom: 20px;
+}
+
+.login-form-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-form-socialNetworks * {
+  font-size: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.login-form-TwitterIcon {
+  background-color: #1ea1f3;
+}
+
+.login-form-InstagramIcon {
+  background-color: #8a5a4e;
+}
+
+.login-form-LinkedInIcon {
+  background-color: #007bb6;
+}
+
+.login-form-GoogleIcon {
+  background-color: #de4e43;
+}
+
+.login-form-FacebookIcon {
+  background-color: #3b5998;
+}
+
+.login-form-register * {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.login-form-register span {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 0;
+  border: 2px solid #2e55fa;
+  border-radius: 10px;
+}
