@@ -10,32 +10,82 @@
   z-index: 100000;
 }
 
-.navBar-ul {
-  display: flex;
-  font-size: 22px;
+.navBar-img {
+  max-width: 220px;
 }
 
-.navBar-ul li {
-  padding: 15px 20px;
-  cursor: pointer;
+.navBar-ul {
+  display: flex;
+  font-size: 20px;
+}
+
+.navBar-li {
+  padding: 8px 13px;
+  position: relative;
+}
+
+.navBar-icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navBar-submenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar-submenu-new {
+  background-color: red;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.navBar-li-jobSeekers li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navBar-li:hover {
+  border-radius: 5px;
   background-color: #2e55fa;
-  color: #0b0b2a;
-  font-weight: 900;
-  border-radius: 10px;
-  transition: 500ms;
+  transition: 300ms;
 }
 
-.navBar-button{
+.navBar-li-jobSeekers {
+  display: none;
+  position: absolute;
+  background-color: #222339c2;
+  z-index: 10000;
+  font-size: 14px;
+  width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.425);
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.navBar-li-jobSeekers a {
+  display: block;
+  padding: 6px 20px;
+}
+
+.navBar-li-jobSeekers a:hover,
+.navBar-li-jobSeekers div:hover {
+  background-color: #2e55fa;
+  transition: 300ms;
+  border-radius: 5px;
+}
+
+li.navBar-li:hover .navBar-li-jobSeekers {
+  display: block;
+  right: 0;
+  margin-top: 7px;
+}
+
+.navBar-button {
   display: flex;
-}
-
-@media (max-width: 370px) {
-  .navBar-button {
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 576px) {
