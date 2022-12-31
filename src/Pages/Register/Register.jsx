@@ -82,32 +82,32 @@ function Register() {
     }
   };
 
-  const submitHandler = (e) => {
-    e.preventDefault();
-    if (
-      username.isValid &&
-      mobile.isValid &&
-      email.isValid &&
-      password.isValid &&
-      passwordRepeat.isValid
-    ) {
-      let user = {
-        username: username.value,
-        mobile: mobile.value,
-        email: email.value,
-        password: password.value,
-        passwordRepeat: passwordRepeat.value,
-      };
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
+  //   if (
+  //     username.isValid &&
+  //     mobile.isValid &&
+  //     email.isValid &&
+  //     password.isValid &&
+  //     passwordRepeat.isValid
+  //   ) {
+  //     let user = {
+  //       username: username.value,
+  //       mobile: mobile.value,
+  //       email: email.value,
+  //       password: password.value,
+  //       passwordRepeat: passwordRepeat.value,
+  //     };
 
-      fetch(
-        "https://console.firebase.google.com/project/reactjs-job-b20f1/database/reactjs-job-b20f1-default-rtdb/data/~2F",
-        {
-          method: "POST",
-          body: JSON.stringify(user),
-        }
-      ).then((response) => console.log(response));
-    }
-  };
+  //     fetch(
+  //       "https://console.firebase.google.com/project/reactjs-job-b20f1/database/reactjs-job-b20f1-default-rtdb/data/~2F",
+  //       {
+  //         method: "POST",
+  //         body: JSON.stringify(user),
+  //       }
+  //     ).then((response) => console.log(response));
+  //   }
+  // };
 
   return (
     <div>
@@ -162,7 +162,7 @@ function Register() {
             placeholder="تکرار رمز عبور را وارد کنید"
             type="password"
           />
-          <Link to="/" onClick={submitHandler}>
+          <Link to="/">
             <Button title="ایجاد حساب" />
           </Link>
         </form>

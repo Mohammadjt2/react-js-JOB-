@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./CallToActionTow.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useMediaQuery } from "react-responsive";
 
 function CallToActionTow() {
+  const [slide, setSlide] = useState(3);
+  const widthLargeDown = useMediaQuery({ query: "(max-width: 992px)" });
+  const widthMediumDown = useMediaQuery({ query: "(max-width: 768px)" });
+  useEffect(() => {
+    {
+      widthMediumDown ? setSlide(1) : setSlide(2);
+    }
+  }, [widthMediumDown]);
+  useEffect(() => {
+    {
+      widthLargeDown ? setSlide(2) : setSlide(3);
+    }
+  }, [widthLargeDown]);
   return (
     <div className="callToActionTow">
       <h2>نظر کاربران</h2>
       <h4>چند کلمه از زبان کارجویان</h4>
       <div className="callToActionTow-cards">
         <Swiper
-          slidesPerView={3}
+          slidesPerView={slide}
           spaceBetween={30}
           pagination={{
             clickable: true,

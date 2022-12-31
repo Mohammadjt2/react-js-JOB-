@@ -1,0 +1,29 @@
+.page404 {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.four-zero-four-bg {
+  background-image: url(../../../public/images/page404/dribbble.gif);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 400px;
+  background-position: center;
+}
+
+.four-zero-four-bg h1 {
+  font-size: 80px;
+  color: #2e55fa;
+  font-weight: 900;
+}
+
+.four-zero-four-bg h3 {
+  font-size: 80px;
+}
+
+.contant-box-404 {
+  margin-top: -50px;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 900;
+}

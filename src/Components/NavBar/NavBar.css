@@ -14,12 +14,12 @@
   max-width: 220px;
 }
 
-.navBar-ul {
+.navBar-menu {
   display: flex;
   font-size: 20px;
 }
 
-.navBar-li {
+.navBar-ul {
   padding: 8px 13px;
   position: relative;
 }
@@ -48,7 +48,7 @@
   align-items: center;
 }
 
-.navBar-li:hover {
+.navBar-ul:hover {
   border-radius: 5px;
   background-color: #2e55fa;
   transition: 300ms;
@@ -72,13 +72,14 @@
 }
 
 .navBar-li-jobSeekers a:hover,
-.navBar-li-jobSeekers div:hover {
+.navBar-li-jobSeekers li:hover {
   background-color: #2e55fa;
   transition: 300ms;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-li.navBar-li:hover .navBar-li-jobSeekers {
+ul.navBar-ul:hover .navBar-li-jobSeekers {
   display: block;
   right: 0;
   margin-top: 7px;

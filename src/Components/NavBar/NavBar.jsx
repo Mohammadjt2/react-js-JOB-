@@ -11,16 +11,16 @@ function NavBar() {
       <Link to="/">
         <img src="/images/log-white.png" className="navBar-img" alt="logo" />
       </Link>
-      <ul className="navBar-ul">
+      <ul className="navBar-menu">
         <Link to="/">
-          <li className="navBar-li">صفحه اصلی</li>
+          <li className="navBar-ul">صفحه اصلی</li>
         </Link>
-        <li className="navBar-li">
-          <div>
+        <ul className="navBar-ul">
+          <li>
             <a href="#">کارجویان</a>
             <KeyboardDoubleArrowDownIcon className="navBar-icon" />
-          </div>
-          <div className="navBar-li-jobSeekers">
+          </li>
+          <li className="navBar-li-jobSeekers">
             <a href="#">پروفایل</a>
             <a href="#">رزومه</a>
             <a href="#">شغل های درخواستی</a>
@@ -28,75 +28,75 @@ function NavBar() {
             <a href="#">شغل های ذخیره</a>
             <a href="#">مدیریت رزومه</a>
             <a href="#">تغییر رمز عبور</a>
-          </div>
-        </li>
-        <li className="navBar-li">
-          <div>
+          </li>
+        </ul>
+        <ul className="navBar-ul">
+          <li>
             <a href="#">کارفرما</a>
             <KeyboardDoubleArrowDownIcon className="navBar-icon" />
-          </div>
-          <div className="navBar-li-jobSeekers sag">
+          </li>
+          <li className="navBar-li-jobSeekers">
             <a href="#">پروفایل شرکت</a>
             <a href="#">رزومه</a>
             <a href="#">ارسال مشاغل</a>
             <a href="#">مدیریت مشاغل</a>
             <a href="#">معاملات</a>
             <a href="#">جستجوی کارجویان</a>
-            <div className="navBar-submenu">
+            <li className="navBar-submenu">
               <a href="#">
                 ثبت نام <span className="navBar-submenu-new">جدید</span>
               </a>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-          </div>
-        </li>
-        <li className="navBar-li">
-          <div>
+            </li>
+          </li>
+        </ul>
+        <ul className="navBar-ul">
+          <li>
             <a href="#">صفحات</a>
             <KeyboardDoubleArrowDownIcon className="navBar-icon" />
-          </div>
-          <div className="navBar-li-jobSeekers">
+          </li>
+          <li className="navBar-li-jobSeekers">
             <a href="#">درباره ما</a>
             <a href="#">جزئیات شغل</a>
             <a href="#">شرکا</a>
             <a href="#">شغل های باز</a>
-            <div className="navBar-submenu">
+            <li className="navBar-submenu">
               <a href="#">جستجوی شغل</a>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-            <div className="navBar-submenu">
+            </li>
+            <li className="navBar-submenu">
               <a href="#">شغل ها</a>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-            <div className="navBar-submenu">
+            </li>
+            <li className="navBar-submenu">
               <a href="#">نمونه کارها</a>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-            <div className="navBar-submenu">
-              <a href="#">ورود</a>
+            </li>
+            <li className="navBar-submenu">
+              <Link to="/Login">ورود</Link>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-            <div className="navBar-submenu">
-              <a href="#">ثبت نام</a>
+            </li>
+            <li className="navBar-submenu">
+              <Link to="/Register">ثبت نام</Link>
               <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
-            </div>
-            <a href="#">خطای 404</a>
+            </li>
+            <Link to="/Page404">خطای 404</Link>
             <a href="#">به زودی</a>
             <a href="#">ارتباط با ما</a>
-          </div>
-        </li>
-        <li className="navBar-li">
-          <div>
+          </li>
+        </ul>
+        <ul className="navBar-ul">
+          <li>
             <a href="#">درباره ما</a>
             <KeyboardDoubleArrowDownIcon className="navBar-icon" />
-          </div>
-          <div className="navBar-li-jobSeekers">
+          </li>
+          <li className="navBar-li-jobSeekers">
             <a href="#">کلاسیک</a>
             <a href="#">جدولی با جزئیات</a>
             <a href="#">تصویر دار</a>
             <a href="#">جزئیات وبلاگ</a>
-          </div>
-        </li>
+          </li>
+        </ul>
       </ul>
       <div className="navBar-button">
         <Link to="/LogIn">
