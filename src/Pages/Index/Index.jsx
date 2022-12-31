@@ -4,7 +4,7 @@ import NavBar from "./../../Components/NavBar/NavBar";
 import AboutUs from "./../../Components/AboutUs/AboutUs";
 import CallToAction from "./../../Components/CallToAction/CallToAction";
 import OurJob from "./../../Components/OurJob/OurJob";
-import CallToActionTow from "./../../Components/CallToActionTow/CallToActionTow";
+import CallToActionTwo from "./../../Components/CallToActionTwo/CallToActionTwo";
 import OurLatestBlog from "./../../Components/OurLatestBlog/OurLatestBlog";
 import Footer from "./../../Components/Footer/Footer";
 
@@ -16,7 +16,7 @@ function Index() {
       <AboutUs />
       <CallToAction />
       <OurJob />
-      <CallToActionTow />
+      <CallToActionTwo />
       <OurLatestBlog />
       <Footer />
     </>
