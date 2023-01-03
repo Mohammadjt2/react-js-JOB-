@@ -1,0 +1,15 @@
+.ButtonTwo {
+  background-color: #2e55fa;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin: 5px;
+}
+
+.ButtonTwo:hover{
+  transition: 500ms;
+  background-color: #2e53fab2;
+}

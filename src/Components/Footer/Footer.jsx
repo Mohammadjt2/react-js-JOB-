@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Button from "../Button/Button";
+import ButtonTwo from "../ButtonTwo/ButtonTwo";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -27,7 +27,7 @@ function Footer() {
           </p>
           <div className="footer-jobBoard-email">
             <input type="text" placeholder="آدرس ایمیل" />
-            <Button title="عضویت" />
+            <ButtonTwo title="عضویت" />
           </div>
           <div className="footer-jobBoard-socialNetwork">
             <TwitterIcon className="TwitterIcon" />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css";
-import Button from "../Button/Button";
+import ButtonTwo from "../ButtonTwo/ButtonTwo";
 import Card from "../Card/Card";
 import LandingCount from "../LandingCount/LandingCount";
 import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
@@ -80,7 +80,7 @@ function AboutUs() {
           />
         </div>
         <div className="aboutUs-button">
-          <Button title="همه دسته ها" />
+          <ButtonTwo title="همه دسته ها" />
         </div>
       </div>
     </div>

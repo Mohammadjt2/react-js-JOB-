@@ -9,6 +9,10 @@
   margin: 20px 0;
 }
 
+.ourJob-right-frame:nth-child(even) {
+  background-color: #1e203d44;
+}
+
 .ourJob-right-frame:hover {
   border-right: 5px solid #2e55fa;
   transition: 500ms;

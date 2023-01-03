@@ -29,13 +29,6 @@
   margin: 0 20px;
 }
 
-.aboutUs-button * {
-  border-radius: 40px;
-  display: flex;
-  margin: 60px auto;
-  padding: 20px 40px;
-}
-
 .aboutUs-card {
   display: flex;
   flex-direction: row;
@@ -44,6 +37,10 @@
   justify-content: center;
   width: 90%;
   margin: 30px auto;
+}
+
+.aboutUs-button{
+  text-align: center;
 }
 
 @media (max-width: 768px) {

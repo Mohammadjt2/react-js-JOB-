@@ -7,6 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import Button from "../../Components/Button/Button";
+import ButtonTwo from "../../Components/ButtonTwo/ButtonTwo";
 import { Link } from "react-router-dom";
 
 function LogIn() {
@@ -43,7 +44,7 @@ function LogIn() {
           </div>
           <div className="login-form-register">
             <Link to="/Register">
-              <Button title="ایجاد حساب کاربری" />{" "}
+              <ButtonTwo title="ایجاد حساب کاربری" />
             </Link>
             <Link to="/">
               <span>صفحه اصلی</span>

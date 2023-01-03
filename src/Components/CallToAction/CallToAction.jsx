@@ -1,6 +1,7 @@
 import React from "react";
 import "./CallToAction.css";
 import CardCity from "../CardCity/CardCity";
+import ButtonTwo from "../ButtonTwo/ButtonTwo";
 
 function CallToAction() {
   return (

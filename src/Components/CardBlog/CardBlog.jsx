@@ -1,6 +1,6 @@
 import React from "react";
 import "./CardBlog.css";
-import Button from "../Button/Button";
+import ButtonTwo from "../ButtonTwo/ButtonTwo";
 
 function CardBlog({ name, title, text }) {
   return (
@@ -8,7 +8,7 @@ function CardBlog({ name, title, text }) {
         <h2>{name}</h2>
         <span>{title}</span>
         <p>{text}</p>
-        <Button title="شروع کن"/>
+        <ButtonTwo title="شروع کن"/>
       </div>
   );
 }

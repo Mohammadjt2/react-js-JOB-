@@ -27,3 +27,11 @@
   font-size: 17px;
   font-weight: 900;
 }
+
+.contant-box-404 p{
+  margin-bottom: 15px;
+}
+
+.page404-button *{
+  color: black!important;
+}

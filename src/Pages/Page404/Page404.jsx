@@ -17,7 +17,9 @@ function Page404() {
                 <h3 className="h2">انگار گم شدی!!!</h3>
                 <p>صفحه مورد نظر شما در دسترس نیست</p>
                 <Link to="/">
-                  <Button title="صفحه اصلی" />
+                  <div className="page404-button">
+                    <Button title="صفحه اصلی" />
+                  </div>
                 </Link>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./OurJob.css";
 import Button from "../Button/Button";
+import ButtonTwo from "../ButtonTwo/ButtonTwo";
 import Frame from "../Frame/Frame";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -63,10 +64,10 @@ function OurJob() {
         <div className="ourJob-right-button">
           <div className="ourJob-right-button-next">
             <ArrowForwardIcon />
-            <Button title="بعدی" />
+            <ButtonTwo title="بعدی" />
           </div>
           <div className="ourJob-right-button-previous">
-            <Button title="قبلی" />
+            <ButtonTwo title="قبلی" />
             <ArrowBackIcon />
           </div>
         </div>
