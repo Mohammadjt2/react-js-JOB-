@@ -95,7 +95,7 @@ ul.navBar-ul:hover .navBar-li-jobSeekers {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .navBar-ul {
     display: none;
   }

@@ -56,7 +56,7 @@
 }
 .ourJob-right-frame-left-icon {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 95px;
 }
 .ourJob-right-frame-left-icon *:hover {

@@ -33,7 +33,7 @@
 
 @media (max-width: 1093px) {
   .ourLatestBlog-title {
-    width: auto;
+    width: 90%;
   }
   .ourLatestBlog-title h2 {
     padding-top: 0;
