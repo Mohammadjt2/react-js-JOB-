@@ -2,8 +2,8 @@ import React from "react";
 import "./NavBar.css";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
-import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 
 function NavBar() {
   return (
@@ -18,7 +18,7 @@ function NavBar() {
         <ul className="navBar-ul">
           <li>
             <a href="#">کارجویان</a>
-            <KeyboardDoubleArrowDownIcon className="navBar-icon" />
+            <KeyboardArrowDownIcon className="navBar-icon" />
           </li>
           <li className="navBar-li-jobSeekers">
             <a href="#">پروفایل</a>
@@ -33,7 +33,7 @@ function NavBar() {
         <ul className="navBar-ul">
           <li>
             <a href="#">کارفرما</a>
-            <KeyboardDoubleArrowDownIcon className="navBar-icon" />
+            <KeyboardArrowDownIcon className="navBar-icon" />
           </li>
           <li className="navBar-li-jobSeekers">
             <a href="#">پروفایل شرکت</a>
@@ -46,14 +46,14 @@ function NavBar() {
               <a href="#">
                 ثبت نام <span className="navBar-submenu-new">جدید</span>
               </a>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
           </li>
         </ul>
         <ul className="navBar-ul">
           <li>
             <a href="#">صفحات</a>
-            <KeyboardDoubleArrowDownIcon className="navBar-icon" />
+            <KeyboardArrowDownIcon className="navBar-icon" />
           </li>
           <li className="navBar-li-jobSeekers">
             <a href="#">درباره ما</a>
@@ -62,23 +62,23 @@ function NavBar() {
             <a href="#">شغل های باز</a>
             <li className="navBar-submenu">
               <a href="#">جستجوی شغل</a>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
             <li className="navBar-submenu">
               <a href="#">شغل ها</a>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
             <li className="navBar-submenu">
               <a href="#">نمونه کارها</a>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
             <li className="navBar-submenu">
               <Link to="/Login">ورود</Link>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
             <li className="navBar-submenu">
               <Link to="/Register">ثبت نام</Link>
-              <KeyboardDoubleArrowLeftIcon className="navBar-icon" />
+              <KeyboardArrowLeftIcon className="navBar-icon" />
             </li>
             <Link to="/Page404">خطای 404</Link>
             <a href="#">به زودی</a>
@@ -88,7 +88,7 @@ function NavBar() {
         <ul className="navBar-ul">
           <li>
             <a href="#">درباره ما</a>
-            <KeyboardDoubleArrowDownIcon className="navBar-icon" />
+            <KeyboardArrowDownIcon className="navBar-icon" />
           </li>
           <li className="navBar-li-jobSeekers">
             <a href="#">کلاسیک</a>
