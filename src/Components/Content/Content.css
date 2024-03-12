@@ -97,7 +97,7 @@
     padding-left: 10px;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .content {
     text-align: center;
     padding: 120px 10px;
@@ -139,6 +139,7 @@
     margin-right: 30px;
   }
 }
+
 
 @media (max-width: 515px) {
   .content-form-input div {
