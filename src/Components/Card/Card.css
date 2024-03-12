@@ -1,14 +1,14 @@
 .card {
   position: relative;
-  width: 260px;
-  height: 260px;
+  width: 15rem;
+  height: 15rem;
   background-color: #2e55fa;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 35px;
+  margin: 30px 18px;
   font-size: 20px;
   line-height: 50px;
   box-shadow: 0 0 30px -10px #fff;
