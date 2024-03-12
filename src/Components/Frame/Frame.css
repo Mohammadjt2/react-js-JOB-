@@ -102,6 +102,6 @@
 }
 @media (max-width: 416px) {
   .ourJob-right-frame {
-    width: 23rem;
+    width: auto;
   }
 }

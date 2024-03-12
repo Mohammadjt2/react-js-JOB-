@@ -32,7 +32,7 @@
 .footer-jobBoard-email input {
   border-radius: 40px;
   padding: 8px;
-  width: 300px;
+  width: auto;
   background-color: #222845;
   border: 2px solid #fff;
 }
