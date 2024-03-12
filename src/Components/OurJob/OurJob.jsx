@@ -23,7 +23,7 @@ function OurJob() {
         />
         <Frame
           src="/images/logo/svg/logo1.svg"
-          title="بازاریاب دیجیتال"
+          title="مدرس فرانت اند"
           city="اردکان، یزد"
           time="تمام وقت"
           date="1 ماه پیش"
@@ -31,7 +31,7 @@ function OurJob() {
         />
         <Frame
           src="/images/logo/svg/logo4.svg"
-          title="تریدر"
+          title="بک اند دولوپر"
           city="بوکان، ارومیه"
           time="تمام وقت"
           date="3 ماه پیش"
@@ -39,7 +39,7 @@ function OurJob() {
         />
         <Frame
           src="/images/logo/svg/logo2.svg"
-          title="فرانت اند"
+          title="فرانت اند دولوپر"
           city="دزفول، خوزستان"
           time="نیمه وقت"
           date="8 ماه پیش"
@@ -47,7 +47,7 @@ function OurJob() {
         />
         <Frame
           src="/images/logo/svg/logo3.svg"
-          title="فول استک"
+          title="طراح و مدیر پروژه"
           city="ملایر، همدان"
           time="تمام وقت"
           date="2 ماه پیش"

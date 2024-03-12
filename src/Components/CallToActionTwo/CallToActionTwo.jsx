@@ -3,22 +3,16 @@ import "./CallToActionTwo.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useMediaQuery } from "react-responsive";
 
 function CallToActionTwo() {
   const [slide, setSlide] = useState(3);
-  const widthLargeDown = useMediaQuery({ query: "(max-width: 992px)" });
-  const widthMediumDown = useMediaQuery({ query: "(max-width: 768px)" });
   useEffect(() => {
-    {
-      widthMediumDown ? setSlide(1) : setSlide(2);
+    if (window.innerWidth < 768) {
+      setSlide(1);
+    } else if (window.innerWidth < 992) {
+      setSlide(2);
     }
-  }, [widthMediumDown]);
-  useEffect(() => {
-    {
-      widthLargeDown ? setSlide(2) : setSlide(3);
-    }
-  }, [widthLargeDown]);
+  }, []);
   return (
     <div className="callToActionTow">
       <h2>نظر کاربران</h2>
