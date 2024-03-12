@@ -4,13 +4,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0;
-  height: 100vh;
+  height: 800px;
   width: 100%;
   padding-top: 280px;
 }
 .content-background {
   background: linear-gradient(135deg, #0b0b2a00, #0b0b2a);
-  height: calc(100vh - 80px) ;
+  height: 720px ;
   width: 100%;
   position: absolute;
   left: 0;
