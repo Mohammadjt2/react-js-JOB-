@@ -10,7 +10,7 @@
 }
 .content-background {
   background: linear-gradient(135deg, #0b0b2a00, #0b0b2a);
-  height: 720px ;
+  height: 720px;
   width: 100%;
   position: absolute;
   left: 0;
@@ -43,7 +43,6 @@
 .content-form-input {
   display: flex;
   gap: 5px;
-  
 }
 
 .content-form-input input {
@@ -98,7 +97,7 @@
     padding-left: 10px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   .content {
     text-align: center;
     padding: 120px 10px;
@@ -108,7 +107,7 @@
     gap: 40px;
   }
   .content-form-input div {
-    margin: auto;
+    margin: 0 20px;
   }
   .content-icon {
     display: flex;
@@ -121,13 +120,13 @@
   }
 }
 @media (max-width: 515px) {
-  .content-form-input{
+  .content-form-input {
     gap: 10px;
   }
-  .content-text{
+  .content-text {
     font-size: 30px;
   }
-  .content-form-title{
+  .content-form-title {
     font-size: 35px;
   }
 }
@@ -138,5 +137,11 @@
   .content-form,
   .content-text {
     margin-right: 30px;
+  }
+}
+
+@media (max-width: 515px) {
+  .content-form-input div {
+    margin: 0 0px;
   }
 }
